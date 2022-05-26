@@ -21,6 +21,7 @@
         },
         "AAM": {
             "caption": "Width",
+            "doc": "Ex: 100px or 100%",
             "editor": "StaticText",
             "name": "width",
             "optional": true,
@@ -29,6 +30,7 @@
         },
         "AAN": {
             "caption": "Height",
+            "doc": "Ex: 100px or 100%",
             "editor": "StaticText",
             "name": "height",
             "optional": true,
@@ -57,15 +59,16 @@
             "editor": "StaticNumber",
             "name": "fontWeight",
             "optional": true,
-            "rank": 5,
+            "rank": 6,
             "value": "text"
         },
         "AAS": {
             "caption": "Font Family",
+            "doc": "Ex: Arial",
             "editor": "StaticText",
             "name": "fontFamily",
             "optional": true,
-            "rank": 6,
+            "rank": 7,
             "value": "text"
         },
         "AAT": {
@@ -75,7 +78,7 @@
             "name": "fontStyle",
             "optional": true,
             "options": "normal,italic",
-            "rank": 7,
+            "rank": 8,
             "value": "_any_thing_bindable"
         },
         "AAU": {
@@ -83,14 +86,15 @@
             "editor": "Color",
             "name": "color",
             "optional": true,
-            "rank": 8
+            "rank": 9
         },
         "AAV": {
             "caption": "Text Align",
-            "editor": "StaticText",
+            "editor": "Dropdown",
             "name": "textAlign",
             "optional": true,
-            "rank": 9
+            "options": "left,center,right",
+            "rank": 10
         },
         "AAW": {
             "caption": "Text Decoration",
@@ -99,7 +103,7 @@
             "name": "textDecoration",
             "optional": true,
             "options": "none,underline",
-            "rank": 10
+            "rank": 11
         },
         "AAX": {
             "caption": "Text Transform",
@@ -107,14 +111,87 @@
             "name": "textTransform",
             "optional": true,
             "options": "uppercase,lowercase,capitalize",
-            "rank": 11
+            "rank": 12
         },
         "AAY": {
             "caption": "Line Height",
             "editor": "StaticNumber",
             "name": "lineHeight",
             "optional": true,
-            "rank": 12
+            "rank": 5
+        },
+        "AAZ": {
+            "caption": "Padding Left",
+            "editor": "StaticNumber",
+            "name": "paddingLeft",
+            "optional": true,
+            "rank": 13
+        },
+        "AAa": {
+            "caption": "Padding Right",
+            "doc": "",
+            "editor": "StaticNumber",
+            "name": "paddingRight",
+            "optional": true,
+            "rank": 14
+        },
+        "AAb": {
+            "caption": "Padding Top",
+            "editor": "StaticNumber",
+            "name": "paddingTop",
+            "optional": true,
+            "rank": 15
+        },
+        "AAc": {
+            "caption": "Padding Bottom",
+            "editor": "StaticNumber",
+            "name": "paddingBottom",
+            "optional": true,
+            "rank": 16
+        },
+        "AAd": {
+            "caption": "Margin Left",
+            "editor": "StaticNumber",
+            "name": "marginLeft",
+            "optional": true,
+            "rank": 17
+        },
+        "AAe": {
+            "caption": "Margin Right",
+            "editor": "StaticNumber",
+            "name": "marginRight",
+            "optional": true,
+            "rank": 18
+        },
+        "AAf": {
+            "caption": "Margin Top",
+            "editor": "StaticNumber",
+            "name": "marginTop",
+            "optional": true,
+            "rank": 19
+        },
+        "AAg": {
+            "caption": "Margin Bottom",
+            "editor": "StaticNumber",
+            "name": "marginBottom",
+            "optional": true,
+            "rank": 20
+        },
+        "AAh": {
+            "caption": "Overflow X",
+            "editor": "Dropdown",
+            "name": "overflowX",
+            "optional": true,
+            "options": "scroll,hidden,auto,clip,visible",
+            "rank": 21
+        },
+        "AAi": {
+            "caption": "Overflow Y",
+            "editor": "Dropdown",
+            "name": "overflowY",
+            "optional": true,
+            "options": "scroll,hidden,auto,clip,visible",
+            "rank": 22
         }
     },
     "icon": "ion-social-css3-outline",

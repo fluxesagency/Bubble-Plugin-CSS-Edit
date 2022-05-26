@@ -3,10 +3,10 @@
         "0": "media"
     },
     "demo_page": "https://fluxs.bubbleapps.io/version-test/css_edit",
-    "description": "This plugin allows you to add CSS properties to one or more elements by their ID's.",
+    "description": "This plugin allows you to change some of the most common and most used properties in css of any element in your application.\n\nBelow are the properties that can be changed:\n\nWidth, Height, Background Color, Font Size, Line Height, Font Weight, Font Family, Font Style, Color, Text Align, Text Decoration, Text Transform, Padding Left, Padding Right, Padding Top, Padding Bottom, Margin Left, Margin Right , Margin Top, Margin Bottom.",
     "image": "//s3.amazonaws.com/appforest_uf/f1653520237555x881506367973588200/CSS%20%282%29.png",
     "license": "open_source",
     "link": "fluxs.app",
     "name": "CSS Edit",
-    "plugin_instructions": ""
+    "plugin_instructions": "To use this plugin, it is necessary to activate the option \"Expose the option to add an ID attribute to HTML elements\" in your app, this is what will allow the plugin to identify the element to have the css manipulated."
 }
