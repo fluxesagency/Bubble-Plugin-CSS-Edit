@@ -1,0 +1,131 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "add_large_file_upload_properties": false,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 60,
+        "width": 60
+    },
+    "display": "CSS Edit",
+    "fields": {
+        "AAL": {
+            "caption": "Element ID",
+            "doc": "Type here the ID of the element that will be inserted the new css properties.",
+            "editor": "StaticText",
+            "name": "element_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Width",
+            "editor": "StaticText",
+            "name": "width",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Height",
+            "editor": "StaticText",
+            "name": "height",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Background Color",
+            "editor": "Color",
+            "name": "backgroundColor",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Font Size",
+            "editor": "StaticNumber",
+            "in_style": false,
+            "name": "fontSize",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Font Weight",
+            "editor": "StaticNumber",
+            "name": "fontWeight",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Font Family",
+            "editor": "StaticText",
+            "name": "fontFamily",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Font Style",
+            "default_val": "normal",
+            "editor": "Dropdown",
+            "name": "fontStyle",
+            "optional": true,
+            "options": "normal,italic",
+            "rank": 7,
+            "value": "_any_thing_bindable"
+        },
+        "AAU": {
+            "caption": "Color",
+            "editor": "Color",
+            "name": "color",
+            "optional": true,
+            "rank": 8
+        },
+        "AAV": {
+            "caption": "Text Align",
+            "editor": "StaticText",
+            "name": "textAlign",
+            "optional": true,
+            "rank": 9
+        },
+        "AAW": {
+            "caption": "Text Decoration",
+            "default_val": "none",
+            "editor": "Dropdown",
+            "name": "textDecoration",
+            "optional": true,
+            "options": "none,underline",
+            "rank": 10
+        },
+        "AAX": {
+            "caption": "Text Transform",
+            "editor": "Dropdown",
+            "name": "textTransform",
+            "optional": true,
+            "options": "uppercase,lowercase,capitalize",
+            "rank": 11
+        },
+        "AAY": {
+            "caption": "Line Height",
+            "editor": "StaticNumber",
+            "name": "lineHeight",
+            "optional": true,
+            "rank": 12
+        }
+    },
+    "icon": "ion-social-css3-outline",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": false,
+        "MinWidth": false,
+        "Padding": false,
+        "resizable": false
+    },
+    "support_autobinding": false
+}

@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "media"
+    },
+    "demo_page": "https://fluxs.bubbleapps.io/version-test/css_edit",
+    "description": "This plugin allows you to add CSS properties to one or more elements by their ID's.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1653520237555x881506367973588200/CSS%20%282%29.png",
+    "license": "open_source",
+    "link": "fluxs.app",
+    "name": "CSS Edit",
+    "plugin_instructions": ""
+}
